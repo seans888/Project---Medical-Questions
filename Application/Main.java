@@ -41,11 +41,19 @@ public class Main {
         List<TypedDependency> tdl = GrammaticalStructure.typedDependenciesCCprocessed();
         System.out.println(tdl);
 
-        
-    }
+        System.out.println("Input: " + question + "\n");
 
-
+        for (TypedDependency dependency : tdl) {
+            if ("nominal subject".equals(dependency.reln().getLongName())
+                    && "what".equalsIgnoreCase(dependency.gov().originalText())) {
+//insert call
+            }
+            }
+        }
 }
+
+
+
 
 
 
