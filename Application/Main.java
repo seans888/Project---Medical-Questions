@@ -4,6 +4,12 @@ import java.io.StringReader;
 import java.util.List;
 import java.util.Scanner;
 
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
+import edu.stanford.nlp.process.CoreLabelTokenFactory;
+import edu.stanford.nlp.process.PTBTokenizer;
+import edu.stanford.nlp.process.Tokenizer;
+import edu.stanford.nlp.process.TokenizerFactory;
 
 
 public class Main {
@@ -15,6 +21,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a question:");
         question = scanner.nextLine();
+
+
+        String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
+        LexicalizedParser lexicalizedParser = LexicalizedParser.loadModel(parserModel);
+
+
+        TokenizerFactory<CoreLabel> tokenizerFactory
+                = PTBTokenizer.factory(new CoreLabelTokenFactory(), " ");
+        Tokenizer<CoreLabel> tokenizer
+                = tokenizerFactory.getTokenizer(new StringReader(question));
+        List<CoreLabel> wordList = tokenizer.tokenize();
+
+
+
 
     }
 }
