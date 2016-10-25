@@ -1,0 +1,26 @@
+ {
+  "id": "ad3f5079-4324-4d6b-af33-4b4d9a07d4df",
+  "timestamp": "2016-10-25T08:44:21.396Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "dasdklasldlsa",
+    "action": "input.unknown",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "a166069b-f9ec-493a-b999-d7e430df9ce8",
+      "webhookUsed": "false",
+      "intentName": "Default Fallback Intent"
+    },
+    "fulfillment": {
+      "speech": "I'm sorry. I'm having trouble understanding the question."
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "e8bfb25c-1cb5-4de9-8dd0-7570a2223553"
+}
