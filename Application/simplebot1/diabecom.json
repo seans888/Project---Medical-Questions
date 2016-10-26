@@ -1,0 +1,28 @@
+{
+  "id": "66fc630a-a891-41d3-9d18-b51cce3b489b",
+  "timestamp": "2016-10-25T08:50:35.555Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what is diabetic coma?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "diabeticcoma": "diabetic coma"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "ebaf3795-19a6-48d7-9b65-172a37a392ac",
+      "webhookUsed": "false",
+      "intentName": "diabeticcoma"
+    },
+    "fulfillment": {
+      "speech": "diabetic coma is a life-threatening diabetes complication that causes unconsciousness. If you have diabetes, dangerously high blood sugar (hyperglycemia) or dangerously low blood sugar (hypoglycemia) can lead to a diabetic coma."
+    },
+    "score": 0.75
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "e8bfb25c-1cb5-4de9-8dd0-7570a2223553"
+}
