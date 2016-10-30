@@ -1,0 +1,28 @@
+{
+  "id": "8d96b919-028f-408d-9359-ee327c9ea320",
+  "timestamp": "2016-10-30T10:03:16.597Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what is diabetes?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "diabetes": "diabetes"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "34a16bd3-902e-4a81-b6ae-9b6c9eceed85",
+      "webhookUsed": "false",
+      "intentName": "diabetes"
+    },
+    "fulfillment": {
+      "speech": "Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy. Read more on: https://medlineplus.gov/diabetes.html"
+    },
+    "score": 0.75
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "e8bfb25c-1cb5-4de9-8dd0-7570a2223553"
+}
