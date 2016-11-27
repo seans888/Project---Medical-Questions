@@ -1,4 +1,27 @@
 {
+  "id": "ac01315a-59b7-4847-95cf-6c3b27671c8f",
+  "timestamp": "2016-11-27T16:03:31.975Z",
+  "result": {
+    "source": "domains",
+    "resolvedQuery": "which is diabetic coma?",
+    "action": "smalltalk.topics",
+    "parameters": {
+      "simplified": "disease name"
+    },
+    "metadata": {},
+    "fulfillment": {
+      "speech": "I'd better leave that sort of advice to trained professionals. You should consult a doctor if you think something is wrong."
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "0f4294cf-d488-4d2c-963a-aa5f98ce106b"
+}
+
+{
   "id": "fb520a52-0493-43a2-b8e9-01f89347f473",
   "timestamp": "2016-11-27T15:26:52.086Z",
   "result": {
