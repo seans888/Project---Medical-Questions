@@ -1,0 +1,28 @@
+{
+  "id": "fb520a52-0493-43a2-b8e9-01f89347f473",
+  "timestamp": "2016-11-27T15:26:52.086Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what is the difference between diabetes  and diabeticcoma?",
+    "action": "google",
+    "actionIncomplete": false,
+    "parameters": {
+      "condition": ""
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "4a36b585-6de9-45ab-8896-5b8180778690",
+      "webhookUsed": "false",
+      "intentName": "What"
+    },
+    "fulfillment": {
+      "speech": ""
+    },
+    "score": 0.29
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "0f4294cf-d488-4d2c-963a-aa5f98ce106b"
+}
