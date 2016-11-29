@@ -1,4 +1,34 @@
 {
+  "id": "c06e2021-afd4-4b7d-ad87-0d9e5afb4f92",
+  "timestamp": "2016-11-29T15:22:21.388Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what causes diabetes?",
+    "action": "google",
+    "actionIncomplete": false,
+    "parameters": {
+      "condition": ""
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "4a36b585-6de9-45ab-8896-5b8180778690",
+      "webhookUsed": "false",
+      "intentName": "What"
+    },
+    "fulfillment": {
+      "speech": ""
+    },
+    "score": 0.25
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "0f4294cf-d488-4d2c-963a-aa5f98ce106b"
+}
+
+
+{
   "id": "ac01315a-59b7-4847-95cf-6c3b27671c8f",
   "timestamp": "2016-11-27T16:03:31.975Z",
   "result": {
