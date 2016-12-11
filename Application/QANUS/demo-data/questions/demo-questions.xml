@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE trecqa [
+
+<!-- ======================================================================
+      TREC 2007 QA track data definition
+
+      Written 2004-05-11 by Jochen L. Leidner <leidner@acm.org>.
+      Modified 2004-05-21 by Ellen Voorhees <ellen.voorhees@nist.gov>
+      Modified 2007-06-12 by Hoa Dang <hoa.dang@nist.gov>
+     ====================================================================== -->
+
+    <!ELEMENT trecqa  (target+)           >
+    <!ELEMENT target   (qa+)              >
+    <!ELEMENT qa      (q, as)             >
+    <!ELEMENT q       (CDATA)    > <!-- don't want text of question parsed -->
+    <!ELEMENT as      (a*, nugget*)      >
+
+    <!ATTLIST trecqa
+                      year  CDATA #REQUIRED
+                      task CDATA #REQUIRED>
+
+    <!ATTLIST target  id    ID    #REQUIRED
+                      text  CDATA #REQUIRED>
+
+    <!ATTLIST q       id    ID    #REQUIRED
+                      type  (FACTOID|LIST|OTHER) #REQUIRED>
+
+    <!ATTLIST a       src   CDATA #REQUIRED
+                      regex CDATA #IMPLIED >
+
+    <!ATTLIST nugget  id     ID   #REQUIRED
+                      type   (VITAL|OKAY)        #REQUIRED>
+<!-- ====================================================================== -->
+]>
+
+<trecqa year="2007" task="main">
+<target id = "555" text = "Renault F1">
+    <qa>
+	<q id = "555.1" type="FACTOID">
+	    What does WMSC stand for?
+	</q>
+    </qa>
+
+	<qa>
+	<q id = "555.2" type="FACTOID">
+	    Who was the title sponsor of the team?
+	</q>
+    </qa>
+	
+</target>
+</trecqa>
