@@ -26,3 +26,109 @@
   },
   "sessionId": "e8bfb25c-1cb5-4de9-8dd0-7570a2223553"
 }
+
+{
+  "id": "158cbccf-3c88-4a1f-b13d-5be4cdda2247",
+  "timestamp": "2016-12-14T10:22:29.542Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what diabetic coma?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "diabeticcoma": "diabetic coma"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "ebaf3795-19a6-48d7-9b65-172a37a392ac",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "diabeticcoma"
+    },
+    "fulfillment": {
+      "speech": "diabetic coma is a life-threatening diabetes complication that causes unconsciousness. If you have diabetes, dangerously high blood sugar (hyperglycemia) or dangerously low blood sugar (hypoglycemia) can lead to a diabetic coma.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "diabetic coma is a life-threatening diabetes complication that causes unconsciousness. If you have diabetes, dangerously high blood sugar (hyperglycemia) or dangerously low blood sugar (hypoglycemia) can lead to a diabetic coma."
+        }
+      ]
+    },
+    "score": 0.75
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}
+
+{
+  "id": "193c8d66-e7bd-418a-8e17-aed79674152f",
+  "timestamp": "2016-12-14T10:22:41.239Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "diabetic coma",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "diabeticcoma": "diabetic coma"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "ebaf3795-19a6-48d7-9b65-172a37a392ac",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "diabeticcoma"
+    },
+    "fulfillment": {
+      "speech": "diabetic coma is a life-threatening diabetes complication that causes unconsciousness. If you have diabetes, dangerously high blood sugar (hyperglycemia) or dangerously low blood sugar (hypoglycemia) can lead to a diabetic coma.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "diabetic coma is a life-threatening diabetes complication that causes unconsciousness. If you have diabetes, dangerously high blood sugar (hyperglycemia) or dangerously low blood sugar (hypoglycemia) can lead to a diabetic coma."
+        }
+      ]
+    },
+    "score": 0.73
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}
+
+{
+  "id": "605ead99-54f7-48b9-9f35-1da3a4b811a7",
+  "timestamp": "2016-12-14T10:22:52.311Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "define diabetic coma?",
+    "action": "input.unknown",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "a166069b-f9ec-493a-b999-d7e430df9ce8",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Default Fallback Intent"
+    },
+    "fulfillment": {
+      "speech": "I'm sorry. I'm having trouble understanding the question.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm sorry. I'm having trouble understanding the question."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}

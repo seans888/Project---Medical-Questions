@@ -1,4 +1,110 @@
 {
+  "id": "8ea6d371-b872-45fb-b5ae-ff30bf4a2dd8",
+  "timestamp": "2016-12-14T10:23:20.745Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "diabetes",
+    "action": "input.unknown",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "a166069b-f9ec-493a-b999-d7e430df9ce8",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Default Fallback Intent"
+    },
+    "fulfillment": {
+      "speech": "I'm sorry. I'm having trouble understanding the question.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm sorry. I'm having trouble understanding the question."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}
+
+{
+  "id": "b4061201-572d-4164-bcc8-29f593c8263d",
+  "timestamp": "2016-12-14T10:23:35.546Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "what diabetes",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "diabetes": "diabetes"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "34a16bd3-902e-4a81-b6ae-9b6c9eceed85",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "diabetes"
+    },
+    "fulfillment": {
+      "speech": "Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy. Read more on: https://medlineplus.gov/diabetes.html",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy.  Read more on: https://medlineplus.gov/diabetes.html"
+        }
+      ]
+    },
+    "score": 0.75
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}
+
+{
+  "id": "e1b50c6b-6ed0-49b5-be9b-6c7253527db3",
+  "timestamp": "2016-12-14T10:23:49.918Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "define diabetes",
+    "action": "input.unknown",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "a166069b-f9ec-493a-b999-d7e430df9ce8",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Default Fallback Intent"
+    },
+    "fulfillment": {
+      "speech": "I'm sorry. I'm having trouble understanding the question.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm sorry. I'm having trouble understanding the question."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "83d9ff36-9189-4b8b-9636-f92d411ec744"
+}
+
+
+
+{
   "id": "8d96b919-028f-408d-9359-ee327c9ea320",
   "timestamp": "2016-10-30T10:03:16.597Z",
   "result": {
